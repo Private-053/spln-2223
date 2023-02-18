@@ -20,6 +20,7 @@ def remove_header_footer(texto):
     texto = re.sub(r'<.xml.*',r'',texto)
     texto = re.sub(r'<.DOCTYPE.*', r'', texto)
     texto = re.sub(r'<pdf2xml.*', r'', texto)
+    texto = re.sub(r'</pdf2xml.*', r'', texto)
     
     return texto
 
@@ -120,6 +121,20 @@ def limpaFonte0(texto):
 
 texto = limpaFonte0(texto)
 
+def limpaElemento(e):
+    e = re.sub(r'\n', r'', e)
+    return e
+
+def limpaListaElementos(lista):
+    lista = list(filter(None, lista))
+    lista = list(map(limpaElemento, lista))
+    return lista
+
+def subByArrow(lista):
+    lista = list(map(lambda x: re.sub(r'\n;\n', r' -> ', x), lista))
+    lista = list(map(lambda x: re.sub(r'\n\n', r'', x), lista))
+    return list(map(lambda x: re.sub(r'(\w{2})\n(.*)', r'\1 -> \2', x), lista))
+
 
 lista = texto.split('###')
 
@@ -138,16 +153,16 @@ for elemento in lista:
         elemento = elemento[1:]
         linguas = elemento.split('@')
         areas = linguas[0].split('£')[1:]
-        for a in areas:
-            a = a.split('\n')
-            a = list(filter(None, a))
-            areas = a
+        areas = limpaListaElementos(areas)
         titulo = linguas[0].split('£')[0]
         linguas = linguas[1:]
+        linguas = subByArrow(linguas)
+        linguas = limpaListaElementos(linguas)
         numero = titulo.split(' ')[1]
         nome = titulo.split(' ')[2:-1]
         nome = list(filter(None, nome))
         genero = titulo.split(' ')[-1]
+        genero = limpaElemento(genero)
         dicionario['C'][numero] = {'nome': nome,'genero' : genero,'areas': areas, 'linguas': linguas}
     
 print(dicionario)
