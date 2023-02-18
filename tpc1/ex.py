@@ -121,6 +121,37 @@ def limpaFonte0(texto):
 texto = limpaFonte0(texto)
 
 
+lista = texto.split('###')
+
+dicionario = {"R" : {}, "C" : {}}
+
+for elemento in lista:
+    if elemento[0] == 'R':
+        elemento = elemento.split('\n')
+        #remove all empty strings
+        elemento = list(filter(None, elemento))
+        elemento[0] = elemento[0].split(' ')[1]
+        #adiciona elemento ao dicionario
+        dicionario["R"][elemento[0]] = elemento[1:]
+
+    elif elemento[0] == 'C':
+        elemento = elemento[1:]
+        linguas = elemento.split('@')
+        areas = linguas[0].split('£')[1:]
+        for a in areas:
+            a = a.split('\n')
+            a = list(filter(None, a))
+            areas = a
+        titulo = linguas[0].split('£')[0]
+        linguas = linguas[1:]
+        numero = titulo.split(' ')[1]
+        nome = titulo.split(' ')[2:-1]
+        nome = list(filter(None, nome))
+        genero = titulo.split(' ')[-1]
+        dicionario['C'][numero] = {'nome': nome,'genero' : genero,'areas': areas, 'linguas': linguas}
+    
+print(dicionario)
+
 file = open('medicina2.txt', 'w')
 
 file.write(texto)
