@@ -10,6 +10,7 @@
 # VID -> Vid.- pals
 
 import re
+import json
 
 texto = open('medicina.xml', 'r').read()
 
@@ -166,6 +167,11 @@ for elemento in lista:
         dicionario['C'][numero] = {'nome': nome,'genero' : genero,'areas': areas, 'linguas': linguas}
     
 print(dicionario)
+
+#escreve o dicionario em json em charset utf-8
+with open('medicina2.json', 'w', encoding='utf-8') as file:
+    json.dump(dicionario, file, ensure_ascii=False, indent=4)
+
 
 file = open('medicina2.txt', 'w')
 
