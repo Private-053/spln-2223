@@ -169,7 +169,7 @@ for elemento in lista:
 print(dicionario)
 
 #escreve o dicionario em json em charset utf-8
-with open('medicina2.json', 'w', encoding='utf-8') as file:
+with open('dicionario.json', 'w', encoding='utf-8') as file:
     json.dump(dicionario, file, ensure_ascii=False, indent=4)
 
 
