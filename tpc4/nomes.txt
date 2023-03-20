@@ -1,0 +1,1487 @@
+      rg -o '[A-Z]\w+( [A-Z]\w+)*' harry_potter.txt | sort | uniq -c | sort -n > outputharrypotter.txt
+      
+      1 AAAAAAAAAAAAAAAAAH
+      1 AAAAAI
+      1 AAAAARRREE
+      1 Aaaah
+      1 Aai
+      1 Abaixando
+      1 Abaixem
+      1 Abaixou
+      1 Abandonou Quirrell
+      1 Abanou
+      1 Aborrecido
+      1 Abram
+      1 Abriuo
+      1 Absolutamente
+      1 Acabaram
+      1 Acabavam
+      1 Acabou
+      1 Acalme
+      1 Aceita
+      1 Achamos
+      1 ACIDENTE DE CARRO
+      1 Acima
+      1 Acompanhou
+      1 Acontece
+      1 Acordei
+      1 Adalberto Waffling
+      1 Adiantou
+      1 Adivinha
+      1 Aerodinâmica
+      1 Afastou
+      1 Afetuosamente
+      1 Afogueados
+      1 Agarrando
+      1 Agarrara
+      1 Agarre
+      1 AGORA
+      1 Agora Percy
+      1 Aguardamos
+      1 Aguardem
+      1 Ai
+      1 AI
+      1 Alberico Grunnion
+      1 Alcançou
+      1 Alegre
+      1 Algo
+      1 Alícia Spinnet
+      1 Alisou
+      1 Almoçaram
+      1 ALUNOS FORA DA CAMA
+      1 ALUNOS FORA DA CAMA NO CORREDOR DO
+      1 ALVO
+      1 Alvo Dumbled
+      1 Ambicioso
+      1 Ameaçado
+      1 Ana Abbott
+      1 Andaram
+      1 Andei
+      1 Andou
+      1 Angelina
+      1 Animais
+      1 Aniversário
+      1 Ansioso
+      1 Aonde
+      1 Aooooooh
+      1 Apanhado
+      1 Apanhador
+      1 Apanhou
+      1 Apareça
+      1 Apareceu
+      1 Aparentemente
+      1 Aproximava
+      1 Aquela Pedra
+      1 Aquelas
+      1 Aqueles
+      1 Argo Filch
+      1 Armário
+      1 Arsênio Jigger
+      1 Art
+      1 Artesãos
+      1 Ascensão
+      1 Até Duda
+      1 Até Harry
+      1 Atenciosamente
+      1 Até Neville
+      1 Até Rony
+      1 Atrasara
+      1 Atravessou
+      1 Aumentara
+      1 Automexediço
+      1 Avistou
+      1 Barrufo
+      1 Basta
+      1 Bastava
+      1 Batatas
+      1 Bateram
+      1 Bateu
+      1 Batilda Bagshot
+      1 Bebidas
+      1 Beliscão
+      1 Berrara
+      1 Biblioteca
+      1 BICANCA
+      1 Blás Zabini
+      1 Bletchley
+      1 Boa Constrictor
+      1 Bobagem
+      1 Bone
+      1 Bordo
+      1 Borrões
+      1 Brancos
+      1 Bravo
+      1 Brilhante
+      1 Bristol
+      1 Bruxaria
+      1 Bruxo Chefe
+      1 Bruxo Famoso
+      1 BUM
+      1 BUMBA
+      1 Buscar
+      1 Cacique Supremo
+      1 Cai
+      1 Calada
+      1 CALADO
+      1 Caldeirões
+      1 Calourinhos
+      1 Caminharam
+      1 Caminhava
+      1 Caminhou
+      1 Cansados
+      1 Cantarolou
+      1 CAPÍTULO CATORZE
+      1 CAPÍTULO CINCO
+      1 CAPÍTULO DEZ
+      1 CAPÍTULO DEZESSEIS
+      1 CAPÍTULO DEZESSETE
+      1 CAPÍTULO DOIS
+      1 CAPÍTULO DOZE
+      1 CAPÍTULO NOVE
+      1 CAPÍTULO OITO
+      1 CAPÍTULO ONZE
+      1 CAPÍTULO QUATRO
+      1 CAPÍTULO QUINZE
+      1 CAPÍTULO SEIS
+      1 CAPÍTULO SETE
+      1 CAPÍTULO TRÊS
+      1 CAPÍTULO TREZE
+      1 CAPÍTULO UM
+      1 Caro Rony
+      1 Carregavam
+      1 Cartão
+      1 Carvalho
+      1 Casas
+      1 Casebre
+      1 CASO GRINGOTES
+      1 Cautela
+      1 Cavalheiro Nicholas
+      1 Cento
+      1 Cera
+      1 Certa
+      1 Chamas
+      1 Chame
+      1 Chapéu
+      1 Chapéu Pensador
+      1 Chegamos
+      1 Chegue
+      1 Cheguem
+      1 CHHHHHI
+      1 Chhhhi
+      1 Chispa
+      1 Chorão
+      1 Circe
+      1 Cleansweep
+      1 Cliodna
+      1 Cobre
+      1 Cochichavam
+      1 Código
+      1 Coitadinho
+      1 Coitado
+      1 Cokeworth
+      1 Colunas
+      1 Com Dumbledore
+      1 Começa
+      1 Comendo
+      1 Comeram
+      1 Comeu
+      1 Comida
+      1 Como Hagrid
+      1 Comparada
+      1 Compreendeu
+      1 Comprou
+      1 Concordo
+      1 Conduta
+      1 Conduziu
+      1 Confederação Internacional
+      1 Conforme
+      1 Conhece
+      1 Conheci
+      1 Conseguira
+      1 Considerado
+      1 Continue
+      1 Contrapragas
+      1 Convenção
+      1 Copa Mundial
+      1 Cornélio Fudge
+      1 CORRAM
+      1 CORVINAL
+      1 Couve
+      1 Criar
+      1 Cuidou
+      1 Curioso
+      1 Cutuque
+      1 Da
+      1 Dá
+      1 DAÍ
+      1 Dali
+      1 Dava
+      1 Debaixo
+      1 Debruçaram
+      1 Decidi
+      1 Decidira
+      1 Decidiu
+      1 Deitado
+      1 Deitava
+      1 Deixou Harry
+      1 Dênis
+      1 Depois Harry
+      1 Depois Hermione
+      1 Depois Malfoy
+      1 Depositou Harry
+      1 Des
+      1 Desapareceu
+      1 Desceu
+      1 Descobri
+      1 Desculpas
+      1 Desculpem
+      1 Desejando
+      1 Desembrulhouo
+      1 Desesperado
+      1 Desta
+      1 Destabocado
+      1 Destacam
+      1 Destruída
+      1 Desvencilhou
+      1 Devagarinho
+      1 Devem
+      1 Deviam
+      1 Devíamos
+      1 Devon
+      1 Dezessete
+      1 Dezoito
+      1 Diário
+      1 Dias
+      1 Difícil
+      1 Diretor
+      1 Diretora Substituta
+      1 Disseram
+      1 Distrai
+      1 Distrair
+      1 Ditamno
+      1 Dizer
+      1 Dizia
+      1 Diziam
+      1 Dobrável
+      1 Dou
+      1 Dragão
+      1 Dragões
+      1 DUDA
+      1 Duda Dursley
+      1 Dudley
+      1 Duelo
+      1 Duendes
+      1 DUMBLEDORE
+      1 Eduardo
+      1 Elas
+      1 Elfric
+      1 Elixir
+      1 Embaixo
+      1 Emerico
+      1 Emerico Switch
+      1 EM PÉ
+      1 Emprestei
+      1 Encantado
+      1 Encante
+      1 Encarou Hagrid
+      1 Encontravam
+      1 Encontrei Flamel
+      1 Endereçaram
+      1 Enfiou
+      1 Enfrento
+      1 Engulo
+      1 Enid
+      1 Enquanto Hagrid
+      1 Enquanto Rony
+      1 Então Harry
+      1 Entende
+      1 Entrando
+      1 Entreabriu
+      1 Entregou
+      1 Entreguei
+      1 Entrementes Harry
+      1 Entrou
+      1 Enxugando
+      1 Era Draco
+      1 Era Filch
+      1 Era Gina Weasley
+      1 Era Hermione
+      1 Era Neville
+      1 Era Pirraça
+      1 Era Quirrell
+      1 Erguendo
+      1 Ergueu
+      1 Escada
+      1 Escancarava
+      1 Escola
+      1 Escolha
+      1 Escolhem
+      1 Escondeu
+      1 Escritas
+      1 Escuta
+      1 Escute
+      1 Esgueirou
+      1 Esmagado
+      1 Espécies
+      1 Esperava
+      1 Espetava
+      1 Espiando
+      1 Espirrou
+      1 Esporte
+      1 Esquecendo
+      1 Esquecera
+      1 Esquisitão
+      1 Esse
+      1 Esses
+      1 Estalagmite
+      1 Estanho
+      1 Estarão
+      1 Estejam
+      1 Estendeu
+      1 Esticou
+      1 Estique
+      1 Estiquem
+      1 Estivemos
+      1 Estudando
+      1 Estudaremos
+      1 Estudos
+      1 EU
+      1 Exijo
+      1 Existe
+      1 Existia
+      1 Experimentei
+      1 Expliquem
+      1 Explodiram
+      1 Faia
+      1 Falando
+      1 Falava
+      1 Fale
+      1 Falei
+      1 Falha
+      1 Falou
+      1 Falta
+      1 Faltam
+      1 Faltava
+      1 Faltavam
+      1 Fantasma
+      1 Fazendo
+      1 FAZENDO
+      1 FAZER MÁGICAS
+      1 Fechou
+      1 Feitiça
+      1 Feiticeiras
+      1 FEITIÇO
+      1 Feliz
+      1 Felizmente
+      1 Festões
+      1 Ficam
+      1 Ficará
+      1 Ficaram
+      1 Fígado
+      1 Fílida Spore
+      1 Filosofal
+      1 Finalmente Norberto
+      1 Finja
+      1 Firmou
+      1 Fizemos
+      1 Fiz Rony
+      1 Fletchley
+      1 Flexível
+      1 Floreios
+      1 Floresta Negra
+      1 Foi Hermione
+      1 Foi Quirrell
+      1 Foi Snape
+      1 Folheara
+      1 Forge
+      1 Fred Weasley
+      1 Fred Wesley
+      1 Freguês
+      1 Furado
+      1 Galgaram
+      1 Gira
+      1 Girou
+      1 Godric
+      1 Golpeou Rony
+      1 Gorda
+      1 Górdon
+      1 Gosta
+      1 Gostaria
+      1 Gostou
+      1 Graças
+      1 Grande Feiticeiro
+      1 Grande Humberto
+      1 Grande Salão
+      1 Guardião
+      1 Guia
+      1 Haaaaaa
+      1 HARRY POTTER
+      1 Hébridas
+      1 Hengisto
+      1 Hoggy Warty Hogwarts
+      1 Hollow
+      1 Homens
+      1 Horríveis
+      1 Horrorizado
+      1 Ih
+      1 Imaginei
+      1 Imaginou
+      1 Impedir
+      1 Importantes
+      1 INSULTE
+      1 Irlanda
+      1 Ivone
+      1 Jantou
+      1 Javali
+      1 Jogue
+      1 JORDAN
+      1 Jorge Mendes
+      1 Jred
+      1 Júpiter
+      1 Juramos
+      1 Justino Finch
+      1 Katie Bell
+      1 Kent
+      1 Ladrão
+      1 Lamento
+      1 Lançou
+      1 Latão
+      1 LEMBRAMOS AOS PAIS QUE OS ALUNOS DO PRIMEIRO ANO NÃO PODEM USAR VASSOURAS
+      1 Lembraram
+      1 Lembre
+      1 Lembro
+      1 Lembrou
+      1 Lentamente
+      1 Letras
+      1 Levante
+      1 Levem
+      1 Lilá
+      1 Lilá Brown
+      1 Lisa Turpin
+      1 Little Whinging
+      1 Livro
+      1 LO
+      1 Lobisomem
+      1 Locomotor Mortis
+      1 Loucos
+      1 MacGonagall
+      1 Mádi Brocklehurst
+      1 Mágica
+      1 Majorca
+      1 Malcolm
+      1 Maluco
+      1 Mandei
+      1 Mandou
+      1 Maneiro
+      1 Mantenha
+      1 Mantenham
+      1 Mantiveram
+      1 Mar
+      1 Más
+      1 Mas Draco
+      1 Mas Dumbledore
+      1 Mas Hermione
+      1 Mas Rony
+      1 Mas Wood
+      1 Matei
+      1 Mau
+      1 McGonagall
+      1 McKinnon
+      1 Meio
+      1 Melhor
+      1 Menino
+      1 Menor Quarto
+      1 Menos
+      1 MENTIRA
+      1 MESA
+      1 Meteu
+      1 Meu Deus
+      1 Meus
+      1 Mila Bulstrode
+      1 Mimsy
+      1 MimsyPorpington
+      1 MINHA FRENTE
+      1 Miranda Goshawk
+      1 Mirou
+      1 Misturados
+      1 Monitor
+      1 Monitores
+      1 Montem
+      1 Moon
+      1 Mora
+      1 Morag MacDougal
+      1 Morrendo
+      1 Morreria
+      1 MortoVivo
+      1 Moscas
+      1 Mostra
+      1 Mostraram
+      1 MOTOCICLETAS NÃO VOAM
+      1 Mudou
+      1 Mulher
+      1 NA
+      1 NÃO
+      1 NÃO ABRA
+      1 NÃO VOU PAGAR
+      1 Naquela Sonserina
+      1 Naqueles
+      1 Na Romênia
+      1 Naturalmente
+      1 Nem Carlinhos Weasley
+      1 Nem Neville
+      1 NENHUM VELHO BIRUTA
+      1 Néris
+      1 Newton Scamander
+      1 Nicholas
+      1 Nick Quase Sem
+      1 Nomear
+      1 Nomes
+      1 Nor
+      1 Nott
+      1 Nuques
+      1 Oãça
+      1 Ocasiões
+      1 Odeio
+      1 Ohhh
+      1 Olhando
+      1 Ontem
+      1 Onze
+      1 Oooooooooh
+      1 Ordem
+      1 Os Weasley
+      1 Ouçam
+      1 Ou Eduardo
+      1 Ousadia
+      1 Outra
+      1 Outras
+      1 Outros Equipamentos
+      1 Ouviam
+      1 Ouvintes
+      1 Ouviram Percy
+      1 Ouviu Hermione
+      1 Ouviu Neville
+      1 Pacientes
+      1 PACOTE
+      1 Paddington
+      1 Pagou
+      1 Pague
+      1 Pam
+      1 Pansy Parkinson
+      1 Paracelso
+      1 Parado
+      1 Para Dumbledore
+      1 PARA TRÁS DAQUELA
+      1 PARE
+      1 Pareceu
+      1 Pareciam
+      1 Parem
+      1 Parkinson
+      1 Parvati Patil
+      1 Páscoa
+      1 Passado
+      1 Passando
+      1 Passara
+      1 Passeando
+      1 Passei
+      1 Pateta
+      1 PATETA PARA ENSINÁ
+      1 Patinhas
+      1 Pé
+      1 Peça
+      1 Pedi
+      1 Pedra Filo
+      1 Pedro Polkiss
+      1 PEGUEI
+      1 Peguem
+      1 PELA
+      1 Pensavam
+      1 Pensou
+      1 Penteie
+      1 Perambulando
+      1 Percebeu
+      1 Perder
+      1 Perdera
+      1 Perderiam
+      1 Perdi
+      1 Perdoar
+      1 Perdoe
+      1 Perguntei
+      1 Perguntou
+      1 Perks
+      1 Permitiram
+      1 Perto
+      1 PESSOAIS
+      1 Pessoal
+      1 Pestinha
+      1 Petrificado
+      1 Petrificus Totalus
+      1 Pilhas
+      1 Planando
+      1 Planou
+      1 Pobre Neville
+      1 Poção
+      1 Podiam
+      1 Pompom
+      1 Ponham
+      1 PONTO PARA GRIFINÓRIA
+      1 Porém
+      1 Pôs
+      1 Positivo
+      1 Postados
+      1 POTTER
+      1 Pousando
+      1 Pragas
+      1 Prata
+      1 Prateada
+      1 Precisariam
+      1 Precisava
+      1 Presa
+      1 Presentes
+      1 Presuntos
+      1 Prewett
+      1 Prezado Harry
+      1 Primeira
+      1 Primeira Classe
+      1 Primeiros
+      1 Principal
+      1 Principalmente
+      1 Procure
+      1 Procure Madame Pomfrey
+      1 Produz
+      1 Profeta
+      1 Proíbo
+      1 PROÍBO
+      1 Prosseguem
+      1 Provavelmente
+      1 Psiu
+      1 Ptolomeu
+      1 Pucey
+      1 Pudins
+      1 Pulso
+      1 Pus
+      1 Puxa
+      1 Puxando
+      1 Qualidade
+      1 Quando Angelina
+      1 Quando Draco
+      1 Quando Duda
+      1 Quando Grifinória
+      1 Quando Neville
+      1 Quando Neville Longbottom
+      1 Quantas
+      1 Quantos
+      1 Quarta
+      1 Quarto
+      1 Quase Sem Cabeça
+      1 QUÊ
+      1 Quebre
+      1 Queimei
+      1 Queixava
+      1 Querem
+      1 Queremos
+      1 Queriam
+      1 Queríamos
+      1 Querido
+      1 QUERO MINHA CARTA
+      1 Quintino Trimble
+      1 Quinze
+      1 Quis
+      1 Railview Hotel
+      1 Raiz
+      1 Realmente
+      1 Recebemos
+      1 Receei
+      1 Recolhendo
+      1 Reconheceu
+      1 Recostou
+      1 Recuou
+      1 Recuperou
+      1 Remexeu
+      1 Repete
+      1 Repôs
+      1 Resmungo
+      1 Resmungou
+      1 Respirando
+      1 Restava
+      1 Retrocederam
+      1 Rindo
+      1 Rochedo
+      1 Roupas
+      1 RVORE
+      1 Sa
+      1 Saara
+      1 Sacolejavam
+      1 Sai
+      1 Saí
+      1 Sair
+      1 Salão
+      1 Salpicos
+      1 Saltando
+      1 Salvou
+      1 Sara
+      1 Satisfeito
+      1 Seção Reservada
+      1 Século
+      1 Se Filch
+      1 Se Grifinória
+      1 Seguiu
+      1 Seguiu Rony
+      1 Segundos
+      1 Segurava
+      1 Segure
+      1 Segurou
+      1 Se Hagrid
+      1 Se Harry
+      1 Senha
+      1 Sentado
+      1 Sentavam
+      1 Sentindo
+      1 Sentiram
+      1 Se Quirrell
+      1 Seriíssimo
+      1 Severa
+      1 Severo Snape
+      1 Sexta
+      1 Sigam
+      1 Silêncio
+      1 Simplesmente
+      1 Sinceramente
+      1 Sir Nicholas
+      1 Sirva
+      1 Sn
+      1 Soalho
+      1 Sol
+      1 Solte
+      1 Some
+      1 Somente Rony
+      1 Sonhava
+      1 Sonhei
+      1 SONSERINA
+      1 Sorria
+      1 Sorte
+      1 Sou Rony Weasley
+      1 SR
+      1 Srs
+      1 Sua Sanguinidade
+      1 Subiu
+      1 Sumiu
+      1 Supunha
+      1 Surgiram
+      1 Surpreendendo
+      1 Surrey
+      1 Susana
+      1 Susana Bones
+      1 Taças
+      1 Talvez Harry
+      1 Tamanhos
+      1 Tamborilou
+      1 Tampouco Voldemort
+      1 Têm
+      1 Tenha
+      1 Tentei
+      1 Teorêncio
+      1 Teoria
+      1 Terão
+      1 Terça
+      1 Terceira
+      1 Terceiro
+      1 Terêncio
+      1 Terêncio Boot
+      1 Terêncio Higgs
+      1 Terminado
+      1 Terminaram
+      1 Termine
+      1 Terminei
+      1 Terras
+      1 Terrível
+      1 Tijolos
+      1 Tinhas
+      1 Típico
+      1 Tirei
+      1 Tive
+      1 Tivera
+      1 Tobias
+      1 Tomado
+      1 Tomei
+      1 Tomou
+      1 Torcendo
+      1 TRAM
+      1 Transformou
+      1 Trapalhão
+      1 Trasgo
+      1 Trêmulo
+      1 Troca
+      1 Troco
+      1 Tropeçou
+      1 TUDO
+      1 Ui
+      1 UMA BRUXA OU NÃO
+      1 Um Natal Muito Feliz
+      1 Um Poltergeist
+      1 Uniforme
+      1 Urico
+      1 Urrando
+      1 Usamos
+      1 Uso
+      1 Uuuu
+      1 VAI
+      1 Valha
+      1 Válter Dursley
+      1 VAMOS
+      1 Vampiros
+      1 Varinhas
+      1 Vários
+      1 Vassouras
+      1 Vê
+      1 Vejamos
+      1 Vemos
+      1 Vencemos
+      1 Venceu
+      1 Venham
+      1 VENHAM VER ESSA COBRA
+      1 Ver
+      1 Verde
+      1 Verificou
+      1 Viajaram
+      1 Vida
+      1 Viemos
+      1 Vigiando
+      1 Vim
+      1 Vindicto Viridiano
+      1 Vinha
+      1 Vira
+      1 Viram
+      1 Viraram
+      1 Virava
+      1 Visgo
+      1 Visitaram
+      1 Vista
+      1 Vivia
+      1 Vó
+      1 Voaram
+      1 VOCÊ
+      1 VOCÊ ENLOUQUECEU
+      1 VOCÊS NÃO VÃO ACREDITAR NO QUE ESTÁ
+      1 VOLDEMORT
+      1 Voltarei
+      1 Volto
+      1 Voltou
+      1 Voou
+      1 Vovó
+      1 WEASLEY
+      1 West Ham
+      1 Wight
+      1 Wing
+      1 Woodcroft
+      1 Xadrez
+      2 Abriu
+      2 Acha
+      2 Acham
+      2 Achava
+      2 Acorde
+      2 Acredito
+      2 Adriano Pucey
+      2 AGARRE
+      2 Algumas
+      2 Ali
+      2 Aliás
+      2 Alô
+      2 Alohomora
+      2 Alvo
+      2 Ana
+      2 Anda
+      2 Andando
+      2 Andava
+      2 Andavam
+      2 Ande
+      2 Angelina Johnson
+      2 Aos
+      2 Apanhei
+      2 Apenas
+      2 Aquele
+      2 Aquilo
+      2 Atrás
+      2 Atravessaram
+      2 Baixou
+      2 Barão
+      2 Bastante
+      2 Bell
+      2 Besteira
+      2 Bobagens
+      2 Bretanha
+      2 BRUXARIA DE HOGWARTS
+      2 Bruxo
+      2 Cadê
+      2 Caiu
+      2 Caldeirão
+      2 Calem
+      2 Casa
+      2 Cem
+      2 Cerimônia
+      2 Chaves
+      2 Chega
+      2 Chegaram
+      2 Chegou
+      2 Cheguei
+      2 Cinquenta
+      2 Coisas
+      2 Começara
+      2 Começou
+      2 Comet
+      2 Conseguiu
+      2 Continua
+      2 Continuaram
+      2 Continuou
+      2 Contou
+      2 Contudo
+      2 Corpo Preso
+      2 Dando
+      2 Dê
+      2 Desejou
+      2 Detesto
+      2 Devemos
+      2 Devo
+      2 Diggle
+      2 Dino Thomas
+      2 Dracos
+      2 Droga
+      2 Dudinha
+      2 Durante
+      2 DURSLEY
+      2 Eca
+      2 Empório
+      2 Encarrapitado
+      2 Encontrou
+      2 Entrem
+      2 Era Hermione Granger
+      2 Ernesto
+      2 ESCOLA DE MAGIA
+      2 Escutem
+      2 Esperou
+      2 Esqueçam
+      2 Estaria
+      2 Estávamos
+      2 Estivera
+      2 Estrelas
+      2 Exatamente
+      2 Expresso
+      2 Faça
+      2 Famoso
+      2 Feliz Natal
+      2 Fico
+      2 Fiquem
+      2 Fizeram
+      2 Flint
+      2 Focinho
+      2 Ganhamos Potter
+      2 Gárgulas
+      2 Genial
+      2 Gorducho
+      2 Grã
+      2 Grande
+      2 Grindelwald
+      2 Grunnings
+      2 Ha
+      2 Haveria
+      2 Inglaterra
+      2 Jamais
+      2 Johnson
+      2 Jordan
+      2 Levantou
+      2 Leve
+      2 Li
+      2 Lino
+      2 Livros
+      2 Longbottom
+      2 Lorde Voldemort
+      2 Madame Norr
+      2 Mas Harry
+      2 Mas Neville
+      2 MATE
+      2 Meia
+      2 Merlim
+      2 Mestre
+      2 Minhas
+      2 Morgana
+      2 Morto
+      2 Muitos
+      2 NADA
+      2 Nas
+      2 Negócios
+      2 Nesse
+      2 Neville Longbottom
+      2 Nove
+      2 Num
+      2 NUNCA
+      2 Obrigada
+      2 Observava
+      2 Obviamente
+      2 Olhava
+      2 OU
+      2 Pai
+      2 Passados
+      2 Pela
+      2 Pensando
+      2 Pensei
+      2 Percy Weasley
+      2 Perenelle
+      2 Perna Presa
+      2 Piscou
+      2 Podemos
+      2 Poderia
+      2 Poderíamos
+      2 Podia
+      2 Podíamos
+      2 Pois
+      2 Poltergeist
+      2 Portanto
+      2 Precisamos
+      2 Presidente
+      2 Prezado Sr
+      2 Professora
+      2 Professor Dumbledore
+      2 Profeta Diário
+      2 Pronto
+      2 Quatro
+      2 Recebeu
+      2 Roniquinho
+      2 Rua
+      2 Saia
+      2 SAIA
+      2 Saiam
+      2 Saiu
+      2 Segunda
+      2 Segundo
+      2 Sejam
+      2 Sem
+      2 Senhor
+      2 Sente
+      2 Se Snape
+      2 Sete
+      2 Sirius
+      2 Sob
+      2 Spinnet
+      2 Suas
+      2 Suspeitou
+      2 Talvez Snape
+      2 Tão
+      2 Tentaram
+      2 Teremos
+      2 Tiago
+      2 Tirou
+      2 Tivemos
+      2 Trazia
+      2 Tremia
+      2 Tsc
+      2 Uau
+      2 Uma Nimbus
+      2 Valia
+      2 Veja
+      2 Venha
+      2 Verdade
+      2 Vi
+      2 Vivem
+      2 Vivo
+      2 Voando
+      2 Volte
+      2 XX
+      3 Acabara
+      3 Acabei
+      3 Achei
+      3 Aconteceu
+      3 Agripa
+      3 Além
+      3 Algi
+      3 Apontou
+      3 Aqui
+      3 Binns
+      3 Brasil
+      3 Bruxos
+      3 Cala
+      3 Cale
+      3 Caramba
+      3 Chapéu Seletor
+      3 Coma
+      3 Conteúdo
+      3 Continuava
+      3 Correu
+      3 Cross
+      3 Curvou
+      3 Dédalo Diggle
+      3 Defesa Contra
+      3 Deixa
+      3 Deixem
+      3 Depressa
+      3 Desde
+      3 Deve
+      3 Diz
+      3 Dizem
+      3 Dois
+      3 Dóris Crockford
+      3 Embora
+      3 Espere
+      3 Experimente
+      3 Faz
+      3 Fazer
+      3 Fazia
+      3 Francamente
+      3 Ganhei
+      3 Gente
+      3 Grandes
+      3 Granger
+      3 Gritou
+      3 Hoje
+      3 Houve
+      3 Imagino
+      3 King
+      3 Le Livros
+      3 Madame Pince
+      3 Malkin
+      3 Marte
+      3 Mas Hagrid
+      3 Mas Snape
+      3 Mesa Principal
+      3 Mil
+      3 Ministério
+      3 Naquela
+      3 Nick Quase Sem Cabeça
+      3 Nossa
+      3 Oi
+      3 OK
+      3 Olá
+      3 Olha
+      3 Os Potter
+      3 Pare
+      3 Parou
+      3 Parvati
+      3 Passou
+      3 Patil
+      3 Pigarreou
+      3 Pior
+      3 Plataforma
+      3 Podem
+      3 Ronald Weasley
+      3 Rúbeo Hagrid
+      3 Sabia
+      3 Sentia
+      3 Sinto
+      3 Sou
+      3 Sugiro
+      3 Tchau
+      3 Teria
+      3 Teve
+      3 Tiago Potter
+      3 Tome
+      3 Transfiguração
+      3 Trevo
+      3 Trouxe
+      3 Uns
+      3 Viu
+      3 Wingardium
+      4 Achavam
+      4 Achou
+      4 Aí
+      4 Alunos
+      4 Apanhe
+      4 Artes
+      4 Bum
+      4 Cabeça
+      4 Carregava
+      4 Cinco
+      4 Deixe
+      4 Dez
+      4 Diga
+      4 Duas
+      4 Encontrei
+      4 Entrementes
+      4 Essas
+      4 Este
+      4 Estive
+      4 Fique
+      4 FORA
+      4 Foram
+      4 Gina
+      4 GRIFINÓRIA
+      4 Herbologia
+      4 Ia
+      4 Infelizmente
+      4 Lá
+      4 Logo
+      4 Madame
+      4 Madame Malkin
+      4 Marcos Flint
+      4 Minha
+      4 Nenhum
+      4 Nicolau
+      4 Olívio Wood
+      4 Ouvi
+      4 Parece
+      4 Posso
+      4 Professor
+      4 Puxou
+      4 Qual
+      4 Queria
+      4 Romênia
+      4 Seleção
+      4 Sentiu
+      4 Seria
+      4 Severo
+      4 Sprout
+      4 Subiram
+      4 Tom
+      4 Trinta
+      4 Usava
+      4 Vejo
+      4 Vem
+      5 Ainda
+      5 Aquela
+      5 Corujas
+      5 Desculpe
+      5 Draco Malfoy
+      5 Esta
+      5 Estavam
+      5 Floresta Proibida
+      5 Gui
+      5 Guida
+      5 História
+      5 Mal
+      5 Mande
+      5 Minerva McGonagall
+      5 Naquele
+      5 Olhem
+      5 Papai
+      5 Pode
+      5 Quadribol
+      5 Qualquer
+      5 Quê
+      5 Seja
+      5 Somente
+      5 Srta
+      5 Tentou
+      5 Toda
+      5 Use
+      5 Vão
+      5 Vinte
+      6 Alguns
+      6 Aposto
+      6 Cada
+      6 Dentro
+      6 Deu
+      6 Dino
+      6 Do
+      6 Ei
+      6 Eram
+      6 Espelho
+      6 Feitiço
+      6 Feitiços
+      6 Ficou
+      6 Fora
+      6 Há
+      6 LUFA
+      6 Mesmo
+      6 Nos
+      6 Nós
+      6 Ojesed
+      6 Ouviram
+      6 Porque
+      6 Primeiro
+      6 Sangrento
+      6 São
+      6 Sentou
+      6 Todas
+      6 Vol
+      6 Wood
+      7 Alguém
+      7 Antes
+      7 Devia
+      7 Estamos
+      7 Jorge Weasley
+      7 Lílian
+      7 Mamãe
+      7 Marcos
+      7 Mulher Gorda
+      7 Nem
+      7 Ora
+      7 Passaram
+      7 Pelo
+      7 Preciso
+      7 Sempre
+      7 Simas Finnigan
+      7 Vá
+      8 Alvo Dumbledore
+      8 Beco Diagonal
+      8 Deus
+      8 Estão
+      8 Figg
+      8 Lembrol
+      8 Lino Jordan
+      8 Ouviu
+      8 Quando Harry
+      8 Quer
+      8 Seus
+      8 Sim
+      9 Alguma
+      9 Até
+      9 Bruxas
+      9 Caldeirão Furado
+      9 Dia
+      9 Enquanto
+      9 Olhou
+      9 Os Dursley
+      9 Ou
+      9 Smeltings
+      9 Suponho
+      9 Todo
+      9 Trevas
+     10 Afinal
+     10 Certo
+     10 Espero
+     10 Finalmente
+     10 Levou
+     10 Madame Nor
+     10 Magia
+     10 Meu
+     10 Obrigado
+     10 Quanto
+     10 Quase
+     10 Virou
+     11 Assim
+     11 Claro
+     11 Corvinal
+     11 Madame Hooch
+     11 Nada
+     11 Salão Principal
+     11 Sua
+     11 Tia Petúnia
+     11 Vai
+     12 Grampo
+     12 Nicolau Flamel
+     12 Pedra Filosofal
+     12 Poções
+     12 Simas
+     12 Três
+     13 Edwiges
+     13 Madame Pomfrey
+     13 Me
+     13 Perebas
+     14 Londres
+     14 Mais
+     14 Pedro
+     14 Seu
+     14 Tinham
+     15 Bem
+     15 Boa
+     15 Flamel
+     15 Nimbus
+     15 Ninguém
+     15 Quero
+     15 Será
+     15 Tudo
+     16 Agouro
+     16 Alfeneiros
+     16 Isso
+     16 Sei
+     16 Tem
+     17 Ao
+     17 Hum
+     17 Para
+     17 Temos
+     17 Tenho
+     18 Canino
+     18 Firenze
+     18 Hermione Granger
+     18 Onde
+     18 Parecia
+     19 Com
+     20 Crabbe
+     20 Ronan
+     21 Flitwick
+     21 Olivaras
+     22 Carlinhos
+     22 De
+     22 Goyle
+     22 Natal
+     22 Olhe
+     23 Muito
+     24 Jorge
+     24 Só
+     24 Talvez
+     25 Vou
+     26 Depois
+     26 Gringotes
+     26 Havia
+     26 Isto
+     26 Norberto
+     26 Todos
+     28 Fofo
+     28 Na
+     28 Nunca
+     29 Tinha
+     30 Estou
+     30 Tio Válter
+     32 Fred
+     32 Harry Potter
+     32 Lufa
+     32 Pirraça
+     32 Sra
+     33 Ela
+     33 Já
+     34 Acho
+     34 No
+     34 Voldemort
+     35 Pedra
+     35 Percy
+     35 Vocês
+     36 Foi
+     36 Weasley
+     37 Bom
+     37 Em
+     38 Agora
+     39 Sabe
+     39 Uma
+     40 Estava
+     40 Malfoy
+     41 Olívio
+     42 Quando
+     43 Como
+     43 Quem
+     44 Está
+     44 Vamos
+     46 Petúnia
+     46 Se
+     49 Rúbeo
+     50 As
+     52 Filch
+     58 Prof
+     58 Sonserina
+     60 Eles
+     62 Por
+     62 Um
+     67 Potter
+     68 Era
+     68 Que
+     69 Então
+     74 Ah
+     74 Draco
+     75 Sr
+     81 Hogwarts
+     81 Minerva
+     85 Profa
+     85 Válter
+     87 Os
+     92 Dursley
+     95 Grifinória
+     98 Eu
+    107 Neville
+    109 Quirrell
+    126 Mas
+    137 Duda
+    141 Dumbledore
+    156 Snape
+    157 Ele
+    160 Você
+    243 Hermione
+    292 Não
+    299 Hagrid
+    395 Rony
+   1246 Harry
