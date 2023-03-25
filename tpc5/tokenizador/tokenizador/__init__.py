@@ -1,13 +1,48 @@
 '''tokenizador'''
 
 
-__version__ = "0.3"
+__version__ = "0.4"
 
 import argparse
 import sys
 import fileinput
 import re
 import os
+
+dir_ = ""
+
+def remove_empty(l):
+    return [x.strip() for x in l if x.strip() != '']
+
+def load_abrev(dire):
+    file = open(dire + "/conf/abrev.txt", "r")
+    txt = file.read()
+    in_list = txt.split('#')
+    abrev_dic = {}
+    for lan in in_list:
+        ln,*abrevs = lan.split('\n')
+        if len(abrevs) > 0:
+            abrevs = remove_empty(abrevs)
+            abrev_dic[ln] = abrevs
+    file.close()
+    return abrev_dic
+
+def abrev_identifier(abrev_dic,lang):
+    abrevs = abrev_dic[lang]
+    abrevs = '|'.join(abrevs)
+    for abrev in abrevs:
+        regex = r'(\w+)( )('+abrev+r')(\.)(\s)'
+
+    return regex
+
+
+arr_poemas = []
+
+
+
+def guarda_poema(match):
+    arr_poemas.append(match.group(1))
+    return f">>{len(arr_poemas)}<<"
 
 def main():
 
@@ -19,33 +54,8 @@ def main():
     parser.add_argument('-l','--ling',default='pt', help="lingua(pt,en)")
     args = parser.parse_args()
 
-    dir = os.path.abspath(__file__)
-    dir = dir[:dir.rfind('/')]
-    
-
-    def remove_empty(l):
-        return [x.strip() for x in l if x.strip() != '']
-
-    def load_abrev():
-        file = open(dir + "/conf/abrev.txt", "r")
-        txt = file.read()
-        in_list = txt.split('#')
-        abrev_dic = {}
-        for lan in in_list:
-            ln,*abrevs = lan.split('\n')
-            if len(abrevs) > 0:
-                abrevs = remove_empty(abrevs)
-                abrev_dic[ln] = abrevs
-        file.close()
-        return abrev_dic
-    
-    def abrev_identifier(abrev_dic,lang):
-        abrevs = abrev_dic[lang]
-        abrevs = '|'.join(abrevs)
-        for abrev in abrevs:
-            regex = r'(\w+)( )('+abrev+r')(\.)(\s)'
-
-        return regex
+    dir_ = os.path.abspath(__file__)
+    dir_ = dir_[:dir_.rfind('/')]
 
         
 
@@ -56,7 +66,7 @@ def main():
     text = file.read()
     file.close()
 
-    abrev_dic = load_abrev()
+    abrev_dic = load_abrev(dir_)
 
     if args.ling in abrev_dic:
         abrev_regex = abrev_identifier(abrev_dic,args.ling)
@@ -100,14 +110,6 @@ def main():
     text = re.sub(r'</?abrv>',r'',text)
 
 
-    arr_poemas = []
-
-    def guarda_poema(match):
-        arr_poemas.append(match.group(1))
-        return f">>{len(arr_poemas)}<<"
-    
-
-    
 
 
     regex_poema = r"<poema>(.*?)</poema>"
@@ -115,6 +117,6 @@ def main():
     text = re.sub(regex_poema, guarda_poema, text, flags=re.S)
 
 
-
-
     print(text)
+
+
